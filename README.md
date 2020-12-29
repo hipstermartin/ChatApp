@@ -1,6 +1,6 @@
 # ChatApp
 
-It is an open-source app with real-time messaging using Firebase and Node Js.
+A simple real-time chatting application developed using Android Studio using Firebase as a Back-end.
 
 ## Features:
 - Login with Phone Number
@@ -47,8 +47,9 @@ Note: Make sure you use latest android studio version
 2) Open the download folder and unzip ChatApp-master.zip file.
 3) Open the project name ChatApp from the folder where you have downloaded the code using menu File -> Open 
 4) It may take a while to build the project for the first time.
-5) Once the build is over, run on the device using menu Run -> Run (app) (Launch app in emulator or phone)
-6) You can see a login page as above.
+5) Configure the app to firebase and app <b>google-services.json<b> file.
+6) Once the build is over, run on the device using menu Run -> Run (app) (Launch app in emulator or phone)
+7) You can see a login page as above.
 
 ## Contact
 For any query or suggestions you can contact me :<br>
