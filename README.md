@@ -51,6 +51,10 @@ Note: Make sure you use latest android studio version
 6) Once the build is over, run on the device using menu Run -> Run (app) (Launch app in emulator or phone)
 7) You can see a login page as above.
 
-## Contact
-For any query or suggestions you can contact me :<br>
-Email: abhi.yalamaddi@gmail.com
+## That's all folks!
+Feel free to mail me for any doubts/query 
+:email: abhi.yalamaddi@gmail.com
+
+
+Feel free to **file a new issue** with a respective title and description on the the [ChatApp](https://github.com/hipstermartin/ChatApp/issues) repository. If you already found a solution to your problem, **I would love to review your pull request**! 
+
