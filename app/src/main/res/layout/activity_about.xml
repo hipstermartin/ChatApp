@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4F4F4F"
+    tools:context=".about">
+
+    <include
+        layout="@layout/app_bar_layout"
+        android:id="@+id/about_toolbar">
+    </include>
+
+    <RelativeLayout
+        android:layout_below="@+id/about_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:src="@drawable/fav"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="120dp"
+            android:layout_below="@+id/title"
+            android:id="@+id/logo"/>
+
+        <TextView
+            android:id="@+id/about_title"
+            android:layout_below="@+id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="30dp"
+            android:text="About"
+            android:textStyle="bold|italic"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="This App was just made for fun using android studio and firebase as a backend. \n\nTo collaborate on this project or if you want to report a bug feel free to contact."
+            android:textSize="16dp"
+            android:layout_below="@+id/about_title"
+            android:textColor="@android:color/white"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/line1"
+            android:layout_below="@+id/text"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text"
+                android:id="@+id/phonecall"
+                android:text="Phone"
+                android:textColor="@android:color/white"
+                android:background="@drawable/loginbutton"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text"
+                android:id="@+id/email"
+                android:text="Email"
+                android:textColor="@android:color/white"
+                android:background="@drawable/loginbutton"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A Hipstermartin production"
+            android:id="@+id/prod"
+            android:textColor="@android:color/white"
+            android:textSize="16dp"
+            android:textStyle="italic"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"/>
+    </RelativeLayout>
+
+</RelativeLayout>
