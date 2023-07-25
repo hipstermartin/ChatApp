@@ -26,9 +26,7 @@ A simple real-time chatting application developed using Android Studio using Fir
 - Replying to a particular message
 
 ## Images:
-![11](https://github.com/hipstermartin/ChatApp/blob/master/screenshots/App%20Main%20Screen.jpeg)
-
-For more screenshots <a href="https://github.com/hipstermartin/ChatApp/tree/master/screenshots">Press here</a>
+For screenshots <a href="https://github.com/hipstermartin/ChatApp/tree/master/screenshots">Press here</a>
 
 
 # Downloading the source code
